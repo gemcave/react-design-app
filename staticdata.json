@@ -1,0 +1,56 @@
+{
+  "cells": [
+    {
+      "title": "Intro to React",
+      "image": "https://cdn-images-1.medium.com/max/1344/0*CHIwTDyQN94bzPf5.png"
+    },
+    {
+      "title": "Intro to GraphQL",
+      "image": "https://cdn-images-1.medium.com/max/1344/0*CHIwTDyQN94bzPf5.png"
+    },
+    {
+      "title": "Intro to JS",
+      "image": "https://cdn-images-1.medium.com/max/1344/0*CHIwTDyQN94bzPf5.png"
+    },
+    {
+      "title": "Intro to PHP",
+      "image": "https://cdn-images-1.medium.com/max/1344/0*CHIwTDyQN94bzPf5.png"
+    },
+    {
+      "title": "Intro to Python",
+      "image": "https://cdn-images-1.medium.com/max/1344/0*CHIwTDyQN94bzPf5.png"
+    },
+    {
+      "title": "Intro to Ruby",
+      "image": "https://cdn-images-1.medium.com/max/1344/0*CHIwTDyQN94bzPf5.png"
+    },
+    {
+      "title": "Intro to Haskell",
+      "image": "https://cdn-images-1.medium.com/max/1344/0*CHIwTDyQN94bzPf5.png"
+    },
+    {
+      "title": "Intro to C++",
+      "image": "https://cdn-images-1.medium.com/max/1344/0*CHIwTDyQN94bzPf5.png"
+    },
+    {
+      "title": "Intro to Redux",
+      "image": "https://cdn-images-1.medium.com/max/1344/0*CHIwTDyQN94bzPf5.png"
+    },
+    {
+      "title": "Intro to Mobx",
+      "image": "https://cdn-images-1.medium.com/max/1344/0*CHIwTDyQN94bzPf5.png"
+    },
+    {
+      "title": "Intro to Lisp",
+      "image": "https://cdn-images-1.medium.com/max/1344/0*CHIwTDyQN94bzPf5.png"
+    },
+    {
+      "title": "Intro to C",
+      "image": "https://cdn-images-1.medium.com/max/1344/0*CHIwTDyQN94bzPf5.png"
+    },
+    {
+      "title": "Intro to Animation",
+      "image": "https://cdn-images-1.medium.com/max/1344/0*CHIwTDyQN94bzPf5.png"
+    }
+  ]
+}
