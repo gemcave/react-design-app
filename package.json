@@ -1,9 +1,7 @@
 {
   "name": "gatsby-starter-default",
-  "private": true,
-  "description": "A simple starter to get up and developing quickly with Gatsby",
+  "description": "A React/Gatsby project developed within purpose of learning design",
   "version": "0.1.0",
-  "author": "Kyle Mathews <mathews.kyle@gmail.com>",
   "dependencies": {
     "gatsby": "^2.13.1",
     "gatsby-image": "^2.2.4",
@@ -21,6 +19,8 @@
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
     "react-helmet": "^5.2.1",
+    "react-stripe-checkout": "^2.6.3",
+    "stripe": "^7.4.0",
     "styled-components": "^4.3.2"
   },
   "devDependencies": {
