@@ -11,6 +11,7 @@ import { useStaticQuery, graphql } from "gatsby"
 
 import Header from "./header"
 import "./layout.css"
+import Footer from "./Footer"
 
 const Layout = ({ children }) => {
   const data = useStaticQuery(graphql`
@@ -22,6 +23,15 @@ const Layout = ({ children }) => {
           keywords
         }
       }
+      allSanityLink(sort: { fields: [_createdAt], order: ASC }) {
+        edges {
+          node {
+            title
+            url
+            _createdAt
+          }
+        }
+      }
     }
   `)
 
@@ -29,11 +39,11 @@ const Layout = ({ children }) => {
     <>
       <Header />
       <main>{children}</main>
-      <footer>
-        {data.allChildren}© {new Date().getFullYear()}, Built with
+      <Footer data={data}>
+        {new Date().getFullYear()}, Built with
         {` `}
         <a href="https://www.gatsbyjs.org">Gatsby</a>
-      </footer>
+      </Footer>
     </>
   )
 }

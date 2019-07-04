@@ -30,10 +30,12 @@ module.exports = {
       },
     },
     {
-      resolve: "gatsby-source-contentful",
+      resolve: "gatsby-source-sanity",
       options: {
-        spaceId: "bxgd2cofa27z",
-        accessToken: "KD_eP3dSm5ZDkMNSijMhkH0fGbloG9X06siBTuA2jqw",
+        projectId: "hao8kuac",
+        dataset: "my-app",
+        token:
+          "skl2URJF5j8SvvGIjPFi6YhPOw86LMRwYDs83qDZ3XE4ygWlMngFYHDyIADk3tR7m4Wt2sHUOUxYFIyJjdaVsYAWu4f7gQiJcktAbkab0UV1LHk6VIc1keAgjJ6QTC3mFqCaPTi8zoYWw9vZAxWiizW2vdtwv53B64bKx3gctIbPMTHNELjZ",
       },
     },
     // this (optional) plugin enables Progressive Web App + Offline functionality
@@ -41,3 +43,12 @@ module.exports = {
     // `gatsby-plugin-offline`,
   ],
 }
+
+// skl2URJF5j8SvvGIjPFi6YhPOw86LMRwYDs83qDZ3XE4ygWlMngFYHDyIADk3tR7m4Wt2sHUOUxYFIyJjdaVsYAWu4f7gQiJcktAbkab0UV1LHk6VIc1keAgjJ6QTC3mFqCaPTi8zoYWw9vZAxWiizW2vdtwv53B64bKx3gctIbPMTHNELjZ
+// {
+// 	resolve: "gatsby-source-contentful",
+// 	options: {
+// 		spaceId: "bxgd2cofa27z",
+// 		accessToken: "KD_eP3dSm5ZDkMNSijMhkH0fGbloG9X06siBTuA2jqw",
+// 	},
+// },
